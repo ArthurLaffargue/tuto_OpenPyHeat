@@ -1,8 +1,10 @@
 # coding: utf-8
 
-
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
+
+sys.path.append("..")
 from OpenPyHeat_2020.OpenPyHeat_Reader import allclean
 
 
