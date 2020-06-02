@@ -1,0 +1,23 @@
+[Initial]
+T = 285.15
+
+[LeftBoundary]
+type = Flux
+phi = constant 500.0
+
+[RightBoundary]
+type = Convection
+T = constant 285.15
+h = 10
+
+[Time]
+t0 = 0
+tf = 288000
+Nt = 15000
+write_step = 25
+
+[Solver]
+application = transient
+thermo = temperature 
+#thermo = enthalpy
+solver = Lsoda

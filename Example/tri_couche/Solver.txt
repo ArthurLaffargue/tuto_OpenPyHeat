@@ -1,0 +1,25 @@
+[Initial]
+T = 285.15
+
+[LeftBoundary]
+type = Convection
+T = constant 263.15
+h = 17
+
+
+[RightBoundary]
+type = Convection
+T = constant 291.15
+h = 9.0
+
+[Time]
+t0 = 0
+tf = 1.00
+Nt = 1500
+#write_step = 25
+
+[Solver]
+application = transient
+thermo = temperature
+solver = Lsoda
+

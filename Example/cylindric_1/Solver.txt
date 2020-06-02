@@ -1,0 +1,19 @@
+[Initial]
+T = 285.15
+
+[LeftBoundary]
+type = Flux
+phi = constant 50.0
+
+
+[RightBoundary]
+type = Convection
+T = constant 293.15
+h = 10
+
+
+[Solver]
+application = steadyState
+solver = ImplicitLinear
+print = True
+
