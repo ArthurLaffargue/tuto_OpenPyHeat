@@ -100,7 +100,7 @@ if True :
 
 
 ## 5-
-if True  :
+if True :
     # allclean('Example/cylindric_1')
     Xsol = allrun('Example/cylindric_1')
     xsol = np.linspace(0,1,len(Xsol))
@@ -120,7 +120,7 @@ if True  :
     plt.show()
 
 ## 6-
-if True  :
+if True :
     # allclean('Example/cylindric_2')
     Xsol = allrun('Example/cylindric_2')
     xsol = np.linspace(0,1,len(Xsol))
@@ -140,7 +140,7 @@ if True  :
     plt.show()
 
 ## 7-
-if True  :
+if True :
     # allclean('Example/cylindric_3')
     Xsol = allrun('Example/cylindric_3')
     xsol = np.linspace(0,1,len(Xsol))
@@ -177,7 +177,7 @@ if True  :
     plt.show()
 
 ## 9-
-if True  :
+if True :
     # allclean('Example/paraffinExchanger')
     Xsol,Xt = allrun('Example/paraffinExchanger')
 
