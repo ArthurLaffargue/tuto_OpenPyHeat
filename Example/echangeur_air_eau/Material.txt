@@ -1,0 +1,31 @@
+[Air]
+type = gasCavity 
+rho = 1.24	
+cp = constant 1007
+volume = 0.001
+exchangeArea = 10
+heatTransferCoef_1 = constant 50.0
+molWeight = 28.9e-3
+
+flow = True
+massFlowRate = 0.05
+Tinlet = constant 350.0
+
+[Inox]
+type = solid0D
+thickness = 0.0005
+kappa = constant 25.0
+cp = constant 1
+rho = 1
+
+[Eau]
+type = fluidCavity 
+rho = 1000	
+cp = constant 4185
+volume = 0.001
+exchangeArea = 10
+heatTransferCoef_1 = constant 350.0
+
+flow = True
+massFlowRate = 0.015
+Tinlet = constant 285.15
