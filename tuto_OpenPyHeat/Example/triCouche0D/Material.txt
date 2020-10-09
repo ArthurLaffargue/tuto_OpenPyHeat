@@ -1,0 +1,27 @@
+
+[Inox]
+type = solid0D
+thickness = 0.003
+kappa = constant 16.5
+cp = constant 500
+rho = 8000
+
+[Eau]
+type = fluidCavity 
+rho = 1000	
+cp = constant 4200
+volume = 0.2
+exchangeArea = 0.4 1.8
+heatTransferCoef_1 = constant 200
+heatTransferCoef_2 = constant 200
+flow = False
+massFlowRate = 0.05
+Tinlet = constant 350.0
+
+[Verre]
+type = solid0D
+thickness = 0.008
+kappa = constant 1.0
+cp = constant 1000
+rho = 2800
+

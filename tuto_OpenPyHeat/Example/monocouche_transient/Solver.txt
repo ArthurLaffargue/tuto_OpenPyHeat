@@ -1,0 +1,22 @@
+[Initial]
+T = 300
+
+[LeftBoundary]
+type = Flux
+phi = constant 0.0
+
+
+[RightBoundary]
+type = Temperature
+T = constant 900
+
+[Time]
+t0 = 0
+tf = 3600.00
+Nt = 1500
+
+[Solver]
+application = transient
+thermo = temperature
+solver = Odeint
+

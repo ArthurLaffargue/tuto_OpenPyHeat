@@ -1,0 +1,28 @@
+[Paraffin]
+type = PCM
+nel = 15
+geom = cylindric
+r1 = 12.50e-3
+r2 = 63.5e-3
+kappa_s = 15
+kappa_l = 15
+rho = 1045
+cp_s = 1.65e3
+cp_l = 1.65e3
+Ts = 345
+Tl = 364
+Lf = 124e3
+
+
+[Eau]
+type = fluidCavity 
+rho = 991	
+cp = constant 4186
+volume = 0.00142
+exchangeArea = 0.2278
+heatTransferCoef_1 = constant 176
+flow = true
+massFlowRate = 0.0204
+Tinlet = constant 305
+
+

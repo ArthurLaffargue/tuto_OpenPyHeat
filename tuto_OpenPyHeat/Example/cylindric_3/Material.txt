@@ -1,0 +1,11 @@
+
+[mat]
+type = cylindric1D
+nel = 25
+r1 = 0.1
+r2 = 0.32
+kappa = constant 0.84
+cp = constant 1.0
+rho = 1.0
+
+

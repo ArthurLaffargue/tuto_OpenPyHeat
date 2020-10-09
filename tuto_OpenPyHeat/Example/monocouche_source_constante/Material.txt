@@ -1,0 +1,10 @@
+
+[wall]
+type = solid1D
+nel = 20
+thickness = 0.1
+kappa = constant 0.1
+cp = constant 1.0
+rho = 1.0
+heatSource = source
+

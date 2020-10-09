@@ -1,0 +1,19 @@
+[Initial]
+T = 285.15
+
+[LeftBoundary]
+type = Convection
+T = constant 263.15
+h = 17
+
+[RightBoundary]
+type = Convection
+T = constant 291.15
+h = 9.0
+
+[Solver]
+application = steadyState
+solver = ImplicitLinear
+#solver = BFGS
+print = True
+

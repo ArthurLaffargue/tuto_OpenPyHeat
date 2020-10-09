@@ -1,0 +1,26 @@
+
+[ciment]
+type = solid1D
+nel = 10
+thickness = 0.02
+kappa = constant 0.68
+cp = constant 1.0
+rho = 1.0
+
+
+[brique]
+type = solid1D
+nel = 10
+thickness = 0.22
+kappa = constant 0.68
+cp = constant 1.0
+rho = 1.0
+
+
+[isolant]
+type = solid1D
+nel = 10
+thickness = 0.04
+kappa = constant 0.04
+cp = constant 1.0
+rho = 1.0

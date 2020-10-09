@@ -1,0 +1,25 @@
+
+[Inox]
+type = solid0D
+thickness = 0.003
+kappa = constant 16.5
+cp = constant 500
+rho = 8000
+heatSource = source_transient
+
+[Air]
+type = fluidCavity 
+rho = 1000	
+cp = constant 4200
+volume = 0.035
+exchangeArea = 0.4 0.85
+heatTransferCoef_1 = constant 80
+heatTransferCoef_2 = constant 80
+
+[Verre]
+type = solid0D
+thickness = 0.008
+kappa = constant 1.0
+cp = constant 1000
+rho = 2800
+
