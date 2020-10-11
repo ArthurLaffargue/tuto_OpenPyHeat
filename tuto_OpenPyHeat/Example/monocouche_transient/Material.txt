@@ -1,9 +1,0 @@
-
-[wood]
-type = solid1D
-nel = 50
-thickness = 0.05
-kappa = constant 0.58
-cp = constant 1450
-rho = 1200
-
