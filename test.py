@@ -177,7 +177,7 @@ if False :
     plt.show()
 
 ## 9-
-if True :
+if False :
     # allclean('Example/paraffinExchanger')
     Xsol,Xt = allrun('Example/paraffinExchanger')
 
