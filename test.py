@@ -79,7 +79,7 @@ if False :
     plt.show()
 
 ## 4-
-if True :
+if False :
     # allclean('Example/tri_couche_steady')
     Xsol = allrun('Example/tri_couche_steady')
     xsol = np.linspace(0,1,len(Xsol))
@@ -177,7 +177,7 @@ if False :
     plt.show()
 
 ## 9-
-if False :
+if True :
     # allclean('Example/paraffinExchanger')
     Xsol,Xt = allrun('Example/paraffinExchanger')
 
@@ -189,8 +189,8 @@ if False :
     TwaterComsol = DATA[:,4]
 
     plt.figure(10)
-    line1 = plt.plot(Xt,Xsol[:,:-1],color='r')
-    line2 = plt.plot(Xt,Xsol[:,-1],color='b')
+    line1 = plt.plot(Xt,Xsol[:,1:],color='r')
+    line2 = plt.plot(Xt,Xsol[:,0],color='b')
     line3 = plt.plot(t,TpcmComsol,color='orange')
     line4 = plt.plot(t,TwaterComsol,color='c')
     plt.grid(True)
@@ -198,3 +198,7 @@ if False :
     plt.ylabel('Temperature [K]')
     plt.legend([line1[0],line2[0],line3[0],line4[0]],['paraffin',"water",'pcm COMSOL','water COMSOL'])
     plt.show()
+
+## 10-
+if False :
+    allrun("Example/echangeur_air_eau")

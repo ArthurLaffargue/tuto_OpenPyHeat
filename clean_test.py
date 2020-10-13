@@ -37,3 +37,6 @@ allclean('Example/monocouche_transient')
 
 
 allclean('Example/paraffinExchanger')
+
+
+allclean('Example/echangeur_air_eau')

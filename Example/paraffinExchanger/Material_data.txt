@@ -1,0 +1,21 @@
+[Eau]
+type = fluidCavity 
+rho = 991	
+cp = constant 4186
+volume = 0.00142
+exchangeArea = 0.227
+heatTransferCoef_1 = constant 179.85
+flow = true
+massFlowRate = 0.0204
+Tinlet = constant 305
+
+
+[Paraffin]
+type = cylindric1D
+nel = 15
+r1 = 12.50e-3
+r2 = 63.5e-3
+kappa = constant 15.0
+rho = 1045
+cp = data pcm_prop
+
