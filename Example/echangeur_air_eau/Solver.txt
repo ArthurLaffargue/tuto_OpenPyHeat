@@ -16,8 +16,7 @@ Nt = 1000
 write_step = 5
 
 [Solver]
-application = steadyState
+application = transient
 thermo = temperature 
 #thermo = enthalpy
-solver = ImplicitLinear
-print = true
+solver = Euler

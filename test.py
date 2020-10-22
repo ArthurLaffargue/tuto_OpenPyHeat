@@ -200,5 +200,5 @@ if False :
     plt.show()
 
 ## 10-
-if False :
+if True :
     allrun("Example/echangeur_air_eau")
