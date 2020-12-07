@@ -9,7 +9,7 @@ from OpenPyHeat_2020.OpenPyHeat_Reader import allrun,allclean
 
 
 ## 1-
-if False :
+if True :
     # allclean('Example/triCouche0D')
     Ysol,Xt = allrun('Example/triCouche0D')
 
@@ -25,7 +25,7 @@ if False :
     plt.show()
 
 ## 1.1-
-if False :
+if True :
     # allclean('Example/triCouche0D_air')
     Ysol,Xt = allrun('Example/triCouche0D_air')
 
@@ -41,7 +41,7 @@ if False :
     plt.show()
 
 ## 2-
-if False :
+if True :
     # allclean('Example/monocouche_source_constante')
     Xsol,Xt = allrun('Example/monocouche_source_constante')
     x = np.linspace(0,1,len(Xsol[0]))
@@ -61,7 +61,7 @@ if False :
 
 
 ## 3-E
-if False :
+if True :
     #Xsol,Xt = allclean('Example/tri_couche')
     Xsol,Xt = allrun('Example/tri_couche')
 
@@ -79,7 +79,7 @@ if False :
     plt.show()
 
 ## 4-
-if False :
+if True :
     # allclean('Example/tri_couche_steady')
     Xsol = allrun('Example/tri_couche_steady')
     xsol = np.linspace(0,1,len(Xsol))
@@ -100,7 +100,7 @@ if False :
 
 
 ## 5-
-if False :
+if True :
     # allclean('Example/cylindric_1')
     Xsol = allrun('Example/cylindric_1')
     xsol = np.linspace(0,1,len(Xsol))
@@ -120,7 +120,7 @@ if False :
     plt.show()
 
 ## 6-
-if False :
+if True :
     # allclean('Example/cylindric_2')
     Xsol = allrun('Example/cylindric_2')
     xsol = np.linspace(0,1,len(Xsol))
@@ -140,7 +140,7 @@ if False :
     plt.show()
 
 ## 7-
-if False :
+if True :
     # allclean('Example/cylindric_3')
     Xsol = allrun('Example/cylindric_3')
     xsol = np.linspace(0,1,len(Xsol))
@@ -161,7 +161,7 @@ if False :
 
 
 ## 8-
-if False :
+if True :
     # allclean('Example/monocouche_transient')
     Xsol,Xt = allrun('Example/monocouche_transient')
     xsol = np.linspace(0,1,len(Xsol))
@@ -177,7 +177,7 @@ if False :
     plt.show()
 
 ## 9-
-if False :
+if True :
     # allclean('Example/paraffinExchanger')
     Xsol,Xt = allrun('Example/paraffinExchanger')
 
