@@ -7,3 +7,11 @@ kappa = constant 0.58
 cp = constant 1450
 rho = 1200
 
+#Ajout flux transversal
+transversal_heatFlux = on
+transversal_temperature = constant 273.15
+transversal_width = 0.03
+transversal_hCoeff = 10.0
+transversal_emissity = 0.83
+
+
